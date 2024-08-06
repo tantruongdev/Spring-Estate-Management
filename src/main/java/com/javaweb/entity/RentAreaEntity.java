@@ -2,7 +2,7 @@ package com.javaweb.entity;
 
 public class RentAreaEntity {
 	private Integer id;
-	private Double value;
+	private Integer value;
 	private Integer buildingId;
 	public Integer getId() {
 		return id;
@@ -10,10 +10,10 @@ public class RentAreaEntity {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public Double getValue() {
+	public Integer getValue() {
 		return value;
 	}
-	public void setValue(Double value) {
+	public void setValue(Integer value) {
 		this.value = value;
 	}
 	public Integer getBuildingId() {

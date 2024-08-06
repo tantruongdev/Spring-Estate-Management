@@ -16,7 +16,7 @@ public class BuildingEntity {
 	private Double serviceFee;
 	private Double brokerageFee;
 	private String managerName;
-	private String managerPhone;
+	private String managerPhoneNumber;
 	
 	public Integer getId() {
 		return id;
@@ -108,11 +108,11 @@ public class BuildingEntity {
 	public void setManagerName(String managerName) {
 		this.managerName = managerName;
 	}
-	public String getManagerPhone() {
-		return managerPhone;
+	public String getManagerPhoneNumber() {
+		return managerPhoneNumber;
 	}
-	public void setManagerPhone(String managerPhone) {
-		this.managerPhone = managerPhone;
+	public void setManagerPhoneNumber(String managerPhoneNumber) {
+		this.managerPhoneNumber = managerPhoneNumber;
 	}
 	
 	
